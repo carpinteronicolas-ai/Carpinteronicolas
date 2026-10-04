@@ -1,0 +1,100 @@
+ul{
+    list-style: none;
+        display: flex;
+        gap: 10px;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    align-items: cente;
+    background-color: rgb(227, 195, 136);
+    margin: 0px;
+    border-radius: 15px;
+    justify-content: space-between;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+
+.lista-header{
+    list-style: none;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        margin-right: 20px;
+}
+
+
+/* CAJAS DE SERVICIOS */
+.descripcion{
+    font-weight: lighter;
+    color: grey;
+    font-size: 13px;
+}
+
+.precio{
+    font-weight: bolder;
+    color:blue;
+    font-size: 18px;
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    align-items: center;
+}
+
+/* FORMULARIO DE CONSULTA */
+.box1{
+    width: 750px;
+    height: 250px;
+    background-color: rgb(227, 195, 136);
+    margin: 10px;
+    Box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    }
+
+/* FOOTER */
+footer{
+    background-color: rgb(191, 189, 189);
+}
+
+    /* ICONOS DE REDES SOCIALES EN FOOTER */
+    footer .fa-facebook{
+        color: blue;
+        font-size: 20px;    
+    }
+
+    footer .fa-facebook:hover{
+        color: orange;
+        font-size: 25px
+    }
+
+    footer .fa-twitter{
+        color:blue;
+        font-size: 20px
+    }
+
+    footer .fa-twitter:hover{
+        color:orange;
+        font-size: 25px
+    }
+
+    footer .fa-instagram{
+        color: blue;
+        font-size: 20px
+    }
+
+    footer .fa-instagram:hover{
+        color:orange;
+        font-size: 25px
+    }
+
+    footer a{
+        text-decoration:none;
+    }
